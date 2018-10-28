@@ -1,18 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
 body{
   font-family: helvetica;
   font-size: 22px;
   background-color: black;
   color: seashell;
   opacity: 0.9;
+
 }
+
+/*This is the Header part*/
 
 .header{
   display: flex;
   max-height: 68px;
   border-bottom: 1px solid seashell;
   position: fixed;
+  background-color: black;
   justify-content: space-between;
   width: 100%;
+  z-index: 3;
 }
 
 #logo{
@@ -24,9 +35,36 @@ body{
 .links{
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .links a{
-  padding: 5px;
+  padding: 10px;
   text-decoration: underline;
+}
+
+/*This is the first main image on page*/
+
+.mainimage{
+  position: relative;
+  width: 1200px;
+  height: 700px;
+  background-image: url("./images/missionbg.jpg");
+  top: 50px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#title{
+  background-color: black;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#title h2, h4{
+  margin: 5px;
 }
