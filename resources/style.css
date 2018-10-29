@@ -68,3 +68,76 @@ body{
 #title h2, h4{
   margin: 5px;
 }
+
+/* Tea of the Month Area with images */
+
+.middle{
+  width: 1000px;
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  top: 100px;
+  position: relative;
+  justify-content: center;
+  margin: auto;
+}
+
+.teaselection{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.teaselection img{
+  width: 300px;
+  height: 200px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.myrtle{
+  margin-right: -275px;
+}
+
+.bedfordbizzare{
+  margin-left: -275px;
+}
+
+/* Locations */
+
+.locations{
+  background-image: url("./images/locations.jpg");
+  min-height: 500px;
+  min-width: 1200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position:relative;
+}
+
+.boxes{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+  align-items: stretch;
+}
+
+#box1, #box2, #box3{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 300px;
+  justify-content: center;
+}
+
+#box1 h3, h4{
+  padding: 10px;
+}
+
+#box2 h3, h4{
+  padding: 10px;
+}
+
+#box3 h3, h4{
+  padding: 10px;
+}
